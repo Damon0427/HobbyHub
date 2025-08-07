@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* src/App.css 或 index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+input[type="text"], textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #292e35;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+  resize: vertical;
+}
+
+.upload-label{
+  color: #010408;
+  font-weight: bold;
+}
+input[type="file"] {
+  color: #292e35;           
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+
+button[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  background: #051c4e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+input[type="text"], textarea:focus {
+  color: #000000;
+  border-color: #646cff;
+  outline: none;
+}
+
+button[type="submit"]:hover {
+  background: #34096d83;
+}
